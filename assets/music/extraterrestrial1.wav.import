@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/extraterrestrial1.wav-14cbaa5eff57b512bf4bff8691cfaf79.sample"
+
+[deps]
+
+source_file="res://assets/music/extraterrestrial1.wav"
+dest_files=[ "res://.import/extraterrestrial1.wav-14cbaa5eff57b512bf4bff8691cfaf79.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0
