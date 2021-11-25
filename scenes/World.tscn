@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/tiles/oceanprime.png" type="Texture" id=1]
+[ext_resource path="res://scenes/JunkShip.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scripts/World.gd" type="Script" id=3]
+
+[node name="World" type="Node2D"]
+pause_mode = 2
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -2096.0
+margin_top = -1448.0
+margin_right = 4944.0
+margin_bottom = 2384.0
+texture = ExtResource( 1 )
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_left = -4392.0
+margin_top = -2904.0
+margin_right = 200.0
+margin_bottom = 1728.0
+texture = ExtResource( 1 )
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="JunkShip" parent="." instance=ExtResource( 2 )]
+position = Vector2( 240, 240 )
+speed = 50.0
+
+[node name="JunkShip2" parent="." instance=ExtResource( 2 )]
